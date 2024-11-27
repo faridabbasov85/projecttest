@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headOne{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #1E1F29;
+}
+.headTwo{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.headTwo > a {
+    text-decoration: none;
+    color: white;
+}
+.headTwo > a:hover{
+    color: #D10024;
+}
+.headTwo > i {
+    color: #D10024;
+}
+header {
+    background-color: #15161D;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.select{
+    color: gray;
+    padding: 14px 14px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    border: 1px solid #15161D;
+}
+.input{
+    padding: 15px 15px;
+    border: 1px solid #15161D;
+}
+.headButton {
+    background-color: #D10024;
+    color: white;
+    border: 1px solid #15161D;
+    padding: 15px 15px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    cursor: pointer;
+}
+.headIcon{
+    color: white;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.headIcon > i{
+    cursor: pointer;
+}
+.headIcon > i:hover{
+    color: #D10024;
+}

@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pages>button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: #D10024;
+    border: 1px solid #D10024;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sect {
+    text-align: center;
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+.sect:hover {
+    border: 1px solid #D10024
+}
+.price {
+    color: #D10024;
+    font-weight: 700;
+}
+.title{
+    font-weight: 700;
+}
+.category {
+    color: gray;
+}
+.sect > i {
+    color: #D10024;
+}
+.sectIcon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
